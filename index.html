@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Exercise 3</title>
+	</head>
+	<body>
+		<h2>JS Exercise 3</h2>
+		<table>
+			<tr>
+				<td>
+					<label>Enter a Number:</label>
+				</td>
+				<td>
+					<input type="text" id="numInput" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="insertNumber()">Insert</button>
+					<button onclick="deleteAll()">Delete All</button>
+				</td>
+				<td></td>
+			</tr>
+		</table>
+		<p>Numbers:</p>
+		<div id="numbers"></div>
+
+		<p>Sum: <span id="sum" style="color: blue"></span></p>
+		<p>Highest: <span id="highest" style="color: green"></span></p>
+		<p>Lowest: <span id="lowest" style="color: red"></span></p>
+	</body>
+	<script src="script.js"></script>
+</html>
